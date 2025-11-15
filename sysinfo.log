@@ -1,0 +1,231 @@
+PING to ukr.net:
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=113 time=1.36 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.367/1.367/1.367/0.000 ms
+
+SUID PROGRAMS:
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/newgrp
+/usr/bin/su
+/usr/bin/crontab
+/usr/bin/mount
+/usr/bin/umount
+/usr/bin/sudo
+/usr/bin/passwd
+/usr/bin/at
+/usr/bin/staprun
+/usr/sbin/unix_chkpwd
+/usr/sbin/pam_timestamp_check
+/usr/sbin/userhelper
+/usr/sbin/usernetctl
+/usr/sbin/mount.nfs
+/usr/libexec/dbus-1/dbus-daemon-launch-helper
+======================
+
+===== NEW ENTRY =====
+DATE: Sat Nov 15 02:20:32 UTC 2025
+
+UPTIME / USERS / CPU LOAD:
+ 02:20:32 up  1:25,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ec2-user pts/0    ppp-141-101-13-3 00:57    1:22m  0.01s  0.01s -bash
+ec2-user pts/1    ppp-141-101-13-3 01:31    0.00s  0.13s  0.01s sshd: ec2-user [priv]
+
+MEMORY USAGE:
+              total        used        free      shared  buff/cache   available
+Mem:            940         136         243           0         560         624
+Swap:             0           0           0
+
+DISK USAGE:
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        462M     0  462M   0% /dev
+tmpfs           471M     0  471M   0% /dev/shm
+tmpfs           471M  488K  470M   1% /run
+tmpfs           471M     0  471M   0% /sys/fs/cgroup
+/dev/nvme0n1p1  8.0G  2.1G  6.0G  26% /
+tmpfs            95M     0   95M   0% /run/user/1000
+tmpfs            95M     0   95M   0% /run/user/0
+
+OPEN TCP PORTS:
+Netid State  Recv-Q Send-Q                Local Address:Port Peer Address:PortProcess                            
+udp   UNCONN 0      0                           0.0.0.0:68        0.0.0.0:*    users:(("dhclient",pid=2019,fd=6))
+udp   UNCONN 0      0                           0.0.0.0:111       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=6))
+udp   UNCONN 0      0                           0.0.0.0:664       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=7))
+udp   UNCONN 0      0                         127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=1780,fd=5))
+udp   UNCONN 0      0      [fe80::c:3ff:feaf:a07f]%eth0:546          [::]:*    users:(("dhclient",pid=2058,fd=5))
+udp   UNCONN 0      0                              [::]:111          [::]:*    users:(("rpcbind",pid=1775,fd=9))
+udp   UNCONN 0      0                              [::]:664          [::]:*    users:(("rpcbind",pid=1775,fd=10))
+udp   UNCONN 0      0                             [::1]:323          [::]:*    users:(("chronyd",pid=1780,fd=6))
+tcp   LISTEN 0      128                         0.0.0.0:111       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=8))
+tcp   LISTEN 0      128                         0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=3528,fd=3))    
+tcp   LISTEN 0      100                       127.0.0.1:25        0.0.0.0:*    users:(("master",pid=3643,fd=13))
+tcp   LISTEN 0      128                            [::]:111          [::]:*    users:(("rpcbind",pid=1775,fd=11))
+tcp   LISTEN 0      128                            [::]:22           [::]:*    users:(("sshd",pid=3528,fd=4))    
+
+PING to ukr.net:
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=113 time=1.36 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.366/1.366/1.366/0.000 ms
+
+SUID PROGRAMS:
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/newgrp
+/usr/bin/su
+/usr/bin/crontab
+/usr/bin/mount
+/usr/bin/umount
+/usr/bin/sudo
+/usr/bin/passwd
+/usr/bin/at
+/usr/bin/staprun
+/usr/sbin/unix_chkpwd
+/usr/sbin/pam_timestamp_check
+/usr/sbin/userhelper
+/usr/sbin/usernetctl
+/usr/sbin/mount.nfs
+/usr/libexec/dbus-1/dbus-daemon-launch-helper
+======================
+
+===== NEW ENTRY =====
+DATE: Sat Nov 15 02:21:01 UTC 2025
+
+UPTIME / USERS / CPU LOAD:
+ 02:21:01 up  1:25,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ec2-user pts/0    ppp-141-101-13-3 00:57    1:23m  0.01s  0.01s -bash
+ec2-user pts/1    ppp-141-101-13-3 01:31   29.00s  0.13s  0.09s -bash
+
+MEMORY USAGE:
+              total        used        free      shared  buff/cache   available
+Mem:            940         134         244           0         561         625
+Swap:             0           0           0
+
+DISK USAGE:
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        462M     0  462M   0% /dev
+tmpfs           471M     0  471M   0% /dev/shm
+tmpfs           471M  520K  470M   1% /run
+tmpfs           471M     0  471M   0% /sys/fs/cgroup
+/dev/nvme0n1p1  8.0G  2.1G  6.0G  26% /
+tmpfs            95M     0   95M   0% /run/user/1000
+tmpfs            95M     0   95M   0% /run/user/0
+
+OPEN TCP PORTS:
+Netid State  Recv-Q Send-Q                Local Address:Port Peer Address:PortProcess                            
+udp   UNCONN 0      0                           0.0.0.0:68        0.0.0.0:*    users:(("dhclient",pid=2019,fd=6))
+udp   UNCONN 0      0                           0.0.0.0:111       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=6))
+udp   UNCONN 0      0                           0.0.0.0:664       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=7))
+udp   UNCONN 0      0                         127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=1780,fd=5))
+udp   UNCONN 0      0      [fe80::c:3ff:feaf:a07f]%eth0:546          [::]:*    users:(("dhclient",pid=2058,fd=5))
+udp   UNCONN 0      0                              [::]:111          [::]:*    users:(("rpcbind",pid=1775,fd=9))
+udp   UNCONN 0      0                              [::]:664          [::]:*    users:(("rpcbind",pid=1775,fd=10))
+udp   UNCONN 0      0                             [::1]:323          [::]:*    users:(("chronyd",pid=1780,fd=6))
+tcp   LISTEN 0      128                         0.0.0.0:111       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=8))
+tcp   LISTEN 0      128                         0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=3528,fd=3))    
+tcp   LISTEN 0      100                       127.0.0.1:25        0.0.0.0:*    users:(("master",pid=3643,fd=13))
+tcp   LISTEN 0      128                            [::]:111          [::]:*    users:(("rpcbind",pid=1775,fd=11))
+tcp   LISTEN 0      128                            [::]:22           [::]:*    users:(("sshd",pid=3528,fd=4))    
+
+PING to ukr.net:
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=113 time=1.35 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.356/1.356/1.356/0.000 ms
+
+SUID PROGRAMS:
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/newgrp
+/usr/bin/su
+/usr/bin/crontab
+/usr/bin/mount
+/usr/bin/umount
+/usr/bin/sudo
+/usr/bin/passwd
+/usr/bin/at
+/usr/bin/staprun
+/usr/sbin/unix_chkpwd
+/usr/sbin/pam_timestamp_check
+/usr/sbin/userhelper
+/usr/sbin/usernetctl
+/usr/sbin/mount.nfs
+/usr/libexec/dbus-1/dbus-daemon-launch-helper
+======================
+
+===== NEW ENTRY =====
+DATE: Sat Nov 15 02:22:01 UTC 2025
+
+UPTIME / USERS / CPU LOAD:
+ 02:22:01 up  1:26,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ec2-user pts/0    ppp-141-101-13-3 00:57    1:24m  0.01s  0.01s -bash
+ec2-user pts/1    ppp-141-101-13-3 01:31    1:29   0.13s  0.09s -bash
+
+MEMORY USAGE:
+              total        used        free      shared  buff/cache   available
+Mem:            940         134         244           0         561         625
+Swap:             0           0           0
+
+DISK USAGE:
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        462M     0  462M   0% /dev
+tmpfs           471M     0  471M   0% /dev/shm
+tmpfs           471M  520K  470M   1% /run
+tmpfs           471M     0  471M   0% /sys/fs/cgroup
+/dev/nvme0n1p1  8.0G  2.1G  6.0G  26% /
+tmpfs            95M     0   95M   0% /run/user/1000
+tmpfs            95M     0   95M   0% /run/user/0
+
+OPEN TCP PORTS:
+Netid State  Recv-Q Send-Q                Local Address:Port Peer Address:PortProcess                            
+udp   UNCONN 0      0                           0.0.0.0:68        0.0.0.0:*    users:(("dhclient",pid=2019,fd=6))
+udp   UNCONN 0      0                           0.0.0.0:111       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=6))
+udp   UNCONN 0      0                           0.0.0.0:664       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=7))
+udp   UNCONN 0      0                         127.0.0.1:323       0.0.0.0:*    users:(("chronyd",pid=1780,fd=5))
+udp   UNCONN 0      0      [fe80::c:3ff:feaf:a07f]%eth0:546          [::]:*    users:(("dhclient",pid=2058,fd=5))
+udp   UNCONN 0      0                              [::]:111          [::]:*    users:(("rpcbind",pid=1775,fd=9))
+udp   UNCONN 0      0                              [::]:664          [::]:*    users:(("rpcbind",pid=1775,fd=10))
+udp   UNCONN 0      0                             [::1]:323          [::]:*    users:(("chronyd",pid=1780,fd=6))
+tcp   LISTEN 0      128                         0.0.0.0:111       0.0.0.0:*    users:(("rpcbind",pid=1775,fd=8))
+tcp   LISTEN 0      128                         0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=3528,fd=3))    
+tcp   LISTEN 0      100                       127.0.0.1:25        0.0.0.0:*    users:(("master",pid=3643,fd=13))
+tcp   LISTEN 0      128                            [::]:111          [::]:*    users:(("rpcbind",pid=1775,fd=11))
+tcp   LISTEN 0      128                            [::]:22           [::]:*    users:(("sshd",pid=3528,fd=4))    
+
+PING to ukr.net:
+PING ukr.net (35.186.218.67) 56(84) bytes of data.
+64 bytes from 67.218.186.35.bc.googleusercontent.com (35.186.218.67): icmp_seq=1 ttl=113 time=1.37 ms
+
+--- ukr.net ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.375/1.375/1.375/0.000 ms
+
+SUID PROGRAMS:
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/newgrp
+/usr/bin/su
+/usr/bin/crontab
+/usr/bin/mount
+/usr/bin/umount
+/usr/bin/sudo
+/usr/bin/passwd
+/usr/bin/at
+/usr/bin/staprun
+/usr/sbin/unix_chkpwd
+/usr/sbin/pam_timestamp_check
+/usr/sbin/userhelper
+/usr/sbin/usernetctl
+/usr/sbin/mount.nfs
+/usr/libexec/dbus-1/dbus-daemon-launch-helper
+======================
