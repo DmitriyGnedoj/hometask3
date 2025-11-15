@@ -1,0 +1,52 @@
+1. Створення ключа доступу (Key Pair)
+aws ec2 create-key-pair \
+  --key-name recovery-key \
+  --query "KeyMaterial" \
+  --output text \
+  --region us-east-1 > recovery-key.pem
+
+chmod 400 recovery-key.pem
+
+2. Створення VPC, Subnet та Security Group
+Перевірка VPC:
+aws ec2 describe-vpcs --region us-east-1 --query "Vpcs[*].VpcId"
+
+Створення нового Subnet:
+aws ec2 create-subnet \
+  --vpc-id vpc-0eb1c317f733acb09 \
+  --cidr-block 172.31.112.0/20 \
+  --availability-zone us-east-1a \
+  --region us-east-1
+
+Створення Security Group:
+aws ec2 create-security-group \
+  --group-name aws-linux-sg \
+  --description "Security group for AWS Linux task" \
+  --vpc-id vpc-0eb1c317f733acb09 \
+  --region us-east-1
+
+Дозвіл SSH:
+aws ec2 authorize-security-group-ingress \
+  --group-id sg-0faff404823c53dc0 \
+  --protocol tcp \
+  --port 22 \
+  --cidr 0.0.0.0/0 \
+  --region us-east-1
+
+3. Створення EC2 інстансу (Amazon Linux)
+aws ec2 run-instances \
+  --image-id ami-0c02fb55956c7d316 \
+  --instance-type t3.micro \
+  --key-name recovery-key \
+  --subnet-id subnet-0ef07a3db7303cece \
+  --security-group-ids sg-0faff404823c53dc0 \
+  --associate-public-ip-address \
+  --region us-east-1
+
+
+Перевірка статусу:
+
+aws ec2 describe-instances \
+  --region us-east-1 \
+  --query "Reservations[*].Instances[*].[InstanceId,PublicIpAddress,State.Name]" \
+  --output table
